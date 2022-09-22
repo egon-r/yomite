@@ -1,0 +1,3 @@
+[submodule "yomite-private"]
+	path = yomite-private
+	url = git@github.com:egon-r/yomite-private.git

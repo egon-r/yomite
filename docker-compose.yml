@@ -1,0 +1,6 @@
+services:
+  yomite:
+    build: .
+    volumes:
+      - "./config.json:/home/yomite/config.json"
+      - "/var/log/nginx/:/var/log/nginx/:ro"
